@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#topmenu {
+	height:30px;
+	width:100%;
+	background-color:#333333;
+	position:absolute;
+	}
+	
+.menuitem {
+	color:lightgray;
+	margin-top:9px;
+	font-weight:bold;
+	font-size:small;
+	font-family:Arial;
+	padding-left:8px;	
+	}
+	
+/*li {
+	display:inline;
+	padding:0 8px 0 8px;
+	}*/
+
+.nav {
+	display:inline;
+	padding:0 8px 0 8px;
+	}
+
+.moremenu {
+	display:block;
+	}
+	
+.menulink {
+	text-decoration:none;
+	}
+	
+.menulink:link {
+	color:lightgray;
+	}
+	
+.menulink:visited {
+	color:lightgray;
+	}
+	
+.menulink:hover {
+	color:white;
+	}
+	
+#moredropdown{
+	position:absolute;
+	display:block;
+	margin-left:-999px;
+	margin-top:8px;
+	width:120px;
+	border:1px solid lightgray;
+	background-color:white;
+	color:#333333
+	}
+	
+#moremenu:active #moredropdown {
+	margin-left:600px;
+	display:block;
+	}
+	
+#moremenu:active {
+	background-color:white;
+	color:lightgray;
+	}
+	
+	
+#search {
+	color:white;
+	text-decoration:none;
+	}
+	
+#search:visited {
+	color:white;
+	}
+	
+#signin {
+	height:29px;
+	width:70px;
+	color:white;
+	background-color:#d14836;
+	float:right;
+	margin-top:50px;
+	margin-right:43px;
+	border-radius:2px;
+	text-align:center;
+	vertical-align:bottom;
+	font-family:arial;
+	font-weight:bold;
+	font-size:11px;
+	position:relative;
+	}
+	
+#signinanchor {
+	/*padding:0px 10px 25px 10px;*/
+	padding-top:9px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	text-decoration:none;
+	}
+	
+#signintext {
+	margin:auto;
+	}
+	
+#signinanchor:link {
+	color:white;
+	}
+	
+#signinanchor:hover {
+	color:white;
+	}
+	
+#signinanchor:visited {
+	color:white;
+	}
+	
+.doodlediv {
+	width:275px;
+	/*border:1px solid black;*/
+	margin:auto;
+	clear:both;
+	padding-top:113px;
+	}
+	
+#doodleimg {
+	width:275px;
+	}
+
+#searchdiv {
+	width:572px;
+	height:23px;
+	margin:auto;
+	padding-top:21px;
+	}
+
+#searchbox {
+	width:572px;
+	height:23px;
+	margin:auto;
+	}
+	
+.searchbutton {
+	display:inline-block;
+	text-align:center;
+	border:1px solid #DCDCDC;
+	border-radius:2px;
+	margin-top:17px;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:gray;
+	background-color:whitesmoke;
+	}
+
+.searchbutton:hover {
+	border:1px solid gray;
+	}
+
+#googlesearch {
+	width:95px;
+	height:25px;
+	margin-left:172px;
+	}
+	
+#luckysearch {
+	width:115px;
+	height:25px;
+	margin-left:13px;
+	}
+	
+.srchbtntxt {
+	padding-top:7px;
+	}
+	
+footer {
+    position:fixed;
+	width:100%;
+	/*heigth:50px;*/
+	padding-top:8px;
+    bottom:0;
+	border-top:thin lightgray solid;
+}
+
+#footerlinks {
+	color:gray;
+	font-family:Arial;
+	font-size:13px;
+	padding-bottom:11px;
+	float:right;
+	margin-right:46px;
+	}
+	
+.footermenulink {
+	text-decoration:none;
+	}
+	
+.footermenulink:link {
+	color:gray;
+	}
+	
+.footermenulink:visited {
+	color:gray;
+	}
+	
+.footermenulink:hover {
+	color:gray;
+	text-decoration:underline;
+	}
